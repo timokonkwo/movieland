@@ -7,14 +7,6 @@ import MovieCard from "./MovieCard";
 
 const API_URL = 'http://omdbapi.com/?apikey=e35627d0';
 
-const movie1 = {
-    "Title": "Superman III",
-    "Year": "1983",
-    "imdbID": "tt0086393",
-    "Type": "movie",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BMzI3ZDllMTctNmI2Mi00OGQ4LTk2ZTQtYTJhMjA5ZGI2YmRkXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg"
-}
-
 const App = () => {
 
     const [movies, setMovies] = useState([]);
